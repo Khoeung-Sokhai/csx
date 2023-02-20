@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(220, 235, 235);
+}
+* {
+    border-radius: 5px;
+}
+.container {
+    display: grid;
+    grid: 100% / auto auto;
+    grid-gap: 10px;
+    background-color: hsl(207, 51%, 68%);
+    padding: 10px;
+}
+.container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.type {
+    text-align: center;
+    margin: auto;
+    width: 15%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.quality {
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
+
+table,
+td,
+th {
+    border: 2px solid;
+}
+
+table {
+    margin-left: 100px;
+    width: 80%;
+    border-collapse: collapse;
+}
+.buytable {
+    padding: 20px;
+}
+.selltable {
+    padding: 20px;
+}
+.submit >input {
+    background-color: rgb(104, 130, 208);
+    color: white;
+    margin-bottom: 800px;
+}
+input {
+    padding: 10px;
+    font-size: 20px;
+}
